@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ruby: [ '2.5', '2.6', '2.7', '3.0', 'head' ]
+        ruby: [ '2.5', '2.6', '2.7', '3.0', 'head', truffleruby-head ]
         rspec: [ '3.6.0', '3.7.0', '3.8.0', '3.9.0', '3.10.0' ]
         simplecov: [ '0.18.0', '0.19.0', '0.20.0', '0.21.0' ]
 
